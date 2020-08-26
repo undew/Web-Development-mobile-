@@ -1,0 +1,264 @@
+hr {
+  opacity: 0;
+}
+* {
+  font-family: "Kosugi Maru", sans-serif;
+}
+.none {
+  display: none;
+}
+
+header {
+  height: 4rem;
+  padding-top: 0.5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+
+  box-shadow: 0px 10px 10px white;
+  z-index: 9999;
+}
+h1 {
+  flex: 0 1 50%;
+  font-size: 20px;
+}
+h1:before {
+  content: "☆";
+}
+main {
+  margin-top: 3rem;
+  background-image: url("cat.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 24.5rem;
+}
+.news {
+  text-align: center;
+}
+article h2 {
+  text-align: center;
+  font-size: 25px;
+  padding: 1rem;
+  width: 12.5rem;
+  background-color: #fff;
+  margin: 0 auto;
+  border: 1px solid white;
+  border-radius: 25px 25px/25px 25px;
+}
+.news .more {
+  background-color: #ff1f57;
+  color: white;
+  padding: 0.5rem;
+  padding-left: 6.75rem;
+  padding-right: 6.75rem;
+  font-size: 1.5rem;
+  border: 1px solid #000;
+  border-radius: 15px 15px/15px 15px;
+}
+nav {
+  text-align: left;
+  position: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 6.5rem;
+  width: 6.5rem;
+  top: 36.5rem;
+  left: 17rem;
+  background-size: contain;
+  border: 2px black solid;
+  border-radius: 25px 25px/25px 25px;
+  z-index: 9999;
+  background-image: url("nav.png");
+
+  background-color: white;
+  box-shadow: 9px 9px 4px #c9c9c9;
+}
+nav ul {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.center li {
+  background-image: url("areatop_course_it-web.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: left;
+  width: 80%;
+  padding-top: 12rem;
+  margin: 1.75rem;
+}
+.Congestion {
+  text-align: center;
+  padding-top: 3.5rem;
+}
+.Congestion h3 {
+  font-size: 22.5px;
+  line-height: 2rem;
+  border-bottom: 1px solid #000;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 0.5rem;
+}
+.newCong {
+  margin: 2.5rem;
+  padding: 2rem;
+  border: 1px solid #000;
+  border-radius: 20px 20px/20px 20px;
+  line-height: 2.5rem;
+  box-shadow: 9px 9px 4px #c9c9c9;
+}
+.newCong .result {
+  font-size: 25px;
+  line-height: 2rem;
+}
+.newCong .result span {
+  font-size: 45px;
+  margin: 0;
+  padding: 0;
+}
+
+.consept {
+  text-align: center;
+}
+.consept_con {
+  padding-top: 8rem;
+  background-image: url("pass.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 12rem;
+}
+.consept_con .consept_title {
+  background: url("cathuman.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20rem;
+  margin-top: 2.75rem;
+  margin-left: 2.75rem;
+  margin-right: 2.75rem;
+  padding-top: 16.5rem;
+  font-size: 27.5px;
+}
+.consept_con h3 {
+  padding-top: 3.5rem;
+  line-height: 1rem;
+  font-size: 25px;
+  border-bottom: 1px solid #000;
+  line-height: 4rem;
+  width: 78%;
+  margin: 0 auto;
+}
+.consept_prise h3 {
+  padding: 2rem;
+  padding-top: 6rem;
+  font-size: 1.75rem;
+  border-bottom: 1px solid #000;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+.consept_prise table {
+  margin: 0 auto;
+  border: 1px solid #000;
+  margin-bottom: 2rem;
+}
+.consept_prise td {
+  padding: 0.5rem;
+  width: 34.5%;
+  border: 1px solid #000;
+}
+.consept_prise .attention {
+  font-size: 0.75rem;
+}
+.Reservation h3 {
+  padding-top: 4rem;
+  font-size: 30px;
+  padding-bottom: 1.75rem;
+  border-bottom: 1px solid #000;
+  width: 80%;
+  margin: 0 auto;
+}
+.Reservation .Res_phone {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 15px;
+}
+.Reservation .Res_number {
+  background-color: #ffe8c7;
+  font-size: 25px;
+  padding: 1rem;
+  border: 3px solid rgb(49, 49, 49);
+  border-radius: 1rem 1rem/1rem 1rem;
+  width: 80%;
+  margin: 0 auto;
+}
+.Res_phone_at {
+  font-size: 0.75rem;
+  padding: 0.5rem;
+}
+.Reservation .Res_net {
+  padding: 0.5rem;
+  border: 1px solid #000;
+  border-radius: 1rem 1rem/1rem 1rem;
+  width: 60%;
+
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.Reservation table {
+  margin: 0 auto;
+  width: 80%;
+}
+.Reservation table th {
+  padding: 2rem;
+  font-size: 20px;
+  margin: 0 auto;
+}
+.Reservation table tr {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.Reservation table td {
+  padding: 0.5rem;
+}
+.Reservation .submit {
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #000;
+  border-radius: 1rem 1rem/1rem 1rem;
+  background-color: white;
+  transition: 0.3s;
+  width: 80%;
+}
+.submit:hover {
+  transition: 0.3s;
+  background-color: #ff1f57;
+}
+input,
+textarea {
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 1rem 1rem/1rem 1rem;
+}
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+footer {
+  margin-top: 5rem;
+  padding-top: 3rem;
+  text-align: center;
+  line-height: 2.5rem;
+  background-color: rgb(70, 70, 70);
+  color: white;
+}
